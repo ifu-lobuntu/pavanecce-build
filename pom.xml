@@ -164,8 +164,8 @@
 		</pluginManagement>
 	</build>
 	<properties>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
 		<tycho.version>0.20.0</tycho.version>
 		<paxexamversion>4.0.0</paxexamversion>
 		<paxurlversion>2.1.0</paxurlversion>
