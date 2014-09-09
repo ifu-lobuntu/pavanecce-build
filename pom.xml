@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.pavanecce</groupId>
 	<artifactId>pavanecce-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>pavanecce-common-build</module>
@@ -51,7 +51,7 @@
 		<profile>
 			<id>jahia</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
 				<environment.artifactId>pavanecce-environments-jahia</environment.artifactId>
@@ -60,7 +60,7 @@
 		<profile>
 			<id>kie</id>
 			<activation>
-				<activeByDefault>false</activeByDefault>
+				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
 				<environment.artifactId>pavanecce-environments-kie</environment.artifactId>
